@@ -25,6 +25,7 @@ setup(
     url="https://github.com/Chicken1Geek/beesly",
 
     description="Web Scraping for Humans",
+    long_description = 'Beesly is a web scraping framework with tool sets build upon Beautiful Soup.'
 
     version=VERSION.get("__version__", "0.0.0"),
 
