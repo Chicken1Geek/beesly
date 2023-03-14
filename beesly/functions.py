@@ -1,9 +1,9 @@
-import classes
-import helpers
-import exceptions
+import beesly.classes as classes
+import beesly.helpers as helpers
+import beesly.exceptions as exceptions
 
 
-def PageWiseTask(page,jobList,pages):
+def PageWise(page,jobList,pages):
 	pageUrl = page.requestUrl
 	if pageUrl.count('@page') != 1:
 		raise exceptions.InvalidDynamicUrl()

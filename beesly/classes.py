@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import helpers
-from helpers import log
-import exceptions
+import beesly.helpers as helpers
+from beesly.helpers import log
+import beesly.exceptions as exceptions
 
 class Page:
 	def __init__(self,url,userAgentType = 'all',headers = {},parser = 'html.parser'):

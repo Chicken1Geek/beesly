@@ -1,5 +1,5 @@
 from user_agent import generate_user_agent
-import exceptions
+import beesly.exceptions as exceptions
 
 
 def getUserAgent(userAgentType):
